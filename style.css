@@ -1,0 +1,122 @@
+/* Cards media queries */
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+body{
+	font-family: 'Fira Sans', sans-serif;
+	background-color: rgba(240,240,240,0.9);
+	font-size: 14px;
+/*	background-color: rgba(200,200,200,1);
+*/
+}
+
+    ;
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size:100px;
+}
+
+
+h2,h3 {
+	font-family: 'Lato', sans-serif;
+	color: #5b5b5b;
+	font-size:20px;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .5s;
+  border-radius: 3px;
+}
+
+a:hover {
+  color: #ffc478;
+}
+
+  .banner {
+  	background-image: url('https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+  	background-size: cover;
+  	background-position: bottom;
+  	padding: 180px 0;
+  	text-align: center;
+  	font-size: 40px;
+  	color: white;
+  	margin: 10px 0;
+  }
+  
+.btn-blue {
+	padding: 8px 38px;
+  	color: white;
+  	background-color: red;
+
+}
+ 	
+
+  .card-white {
+  	background-color: white;
+  	box-sizing: 10px 10px 10px rgba(0,0,0,1);
+  	border-radius: 3px;
+  	width: 360px;
+  	margin: 0 auto;
+  	text-align:center;
+
+  }
+
+  .card-white img {
+  	width: 300px;
+  	height: 300px;
+  	position: center;
+  }
+
+  .container {
+  	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	grid-gap: 16px;
+  }
+  	
+.footer {
+	background: black;
+	color:white;
+	text-align: center;
+	margin: 10px;
+	padding: 10px 0;
+ }
+
+ ul{
+ 	list-style: none;
+ 	color: white;
+ }
+
+ li {
+ 	color: white;
+ }
